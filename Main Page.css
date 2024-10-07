@@ -1,0 +1,137 @@
+body{
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Whole{
+    background-color: #FFFBF2;
+    border-left: 3px solid #95968D;
+    border-right: 3px solid #95968D;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0;
+}
+
+#TopNav{
+    background-color: #18468C;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 5px solid #95968D;
+  }
+
+#MainNavigate{
+    display: block;
+    float: right;
+    font-size: 125%;
+    margin-top: 3px;
+}
+
+#MainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#NavIcon{
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #FFFBF2;
+    font-size: 125%;
+}
+
+li {
+    float: right;
+  }
+
+li a {
+    display: block;
+    color: #FFFBF2;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+#Beginning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #18468C;
+    text-align: center;
+    font-size: 300%;
+}
+
+#Welcome{
+    padding-top: 60px;
+}
+
+#Introduction{
+    padding-left: 30px; 
+}
+
+h2{
+    color: #18468C;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-bottom: 2px;
+}
+
+hr{
+    width: 500px;
+    height: 3px;
+    color: #95968D;
+    background-color: #95968D;
+    border-radius: 5px;
+}
+
+#School {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BCC{
+    padding-left: 30px;
+    margin-top: -1%;
+}
+.Photo{
+    align-items: center;
+    padding-left: 30px;
+}
+
+#AchievementLink{
+    text-align: center;
+}
+
+#Hobby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    padding: 5px;
+}
+
+p a {
+    text-decoration: none;
+    color: #000000;
+}
+.bold{
+    font-weight: bold;
+}
